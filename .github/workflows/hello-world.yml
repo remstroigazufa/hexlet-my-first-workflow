@@ -4,5 +4,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out repository code
       - uses: actions/cheсkout@v3
       - run: make say-hello
